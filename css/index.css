@@ -284,3 +284,64 @@ a li:hover{
     font-family: 'Raleway';
 
 }
+/* ============================================== END ============================================================== */
+
+/* =========================================================================================================== */
+
+/* ================================= SLIDE ANIMATION =========================================================================== */
+
+.slider-frame{
+    overflow: hidden;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    top: 60px;
+
+}
+
+
+@-webkit-keyframes slide_animation{
+    0%{left:-130px}
+    10%{left:-130px}
+    20%{left:1130px}
+    30%{left:1130px}
+    40%{left:2400px}
+    50%{left:2400px}
+    60%{left:1130px}
+    70%{left:1130px}
+    80%{left:-130px}
+    90%{left:-130px}
+    100%{left:-130px}
+
+}
+
+.slide-images{
+    width: 4000px;
+    height: 600px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+
+}
+
+.img-container{
+    width: 1263px;
+    height: 600px;
+    position: relative;
+    float: left;
+}
+
+.img-container img{
+        width: 1263px;
+        height: 600px;
+        left: 0%;
+        right: 0%;
+    }
+
+/* ============================================== END ============================================================== */
+
+/* ============================================================================================================== */
