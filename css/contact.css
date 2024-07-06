@@ -1,0 +1,268 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    background-color: #fefefe;
+    padding: 20px;
+    margin: 0%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px ;
+    font-family: 'Raleway';
+    z-index: 100;
+
+}
+/* ====================================================================================== */
+
+/* ======================== NAVIGATOR ========================================================= */
+.navigator{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    height: 30px;
+    width: 1400px;
+    text-align: right;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.466);
+    padding-top: 10px;
+
+}
+
+.navigator a{
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.navigator a:active{
+
+}
+
+.navigator a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.navigator img{
+    position: fixed;
+    width: 200px;
+    top: -25px;
+    left: 10px;
+}
+/* ======================== END ========================================================= */
+
+/* =========================================================================================================== */
+
+
+/* ===================== MAP ================================================================================ */
+
+.header{
+    position: absolute;
+    top: 250px;
+    left: 580px;
+    font-family: 'Raleway';
+
+}
+
+
+.map{
+    box-sizing: border-box;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+iframe{
+    width: 800px;
+    height: 400px
+}
+/* ========================== END =========================================================================== */
+
+/* ============================================================================================================ */
+
+/* ======================== OUR STORE ============================================================================= */
+
+.ourstore{
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    font-family: 'Raleway';
+    font-size: 20px;
+
+}
+
+.subourstore{
+    position: absolute;
+    top: 950px;
+    left: 200px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 200px;
+}
+
+
+#logophone{
+    position: absolute;
+    top: 1400px;
+    left: 200px;
+
+}
+
+#logowhatsapp{
+    position: absolute;
+    top: 1450px;
+    left: 200px;
+
+}
+
+#logophone img{
+    position: absolute;
+    width: 30px;
+
+}
+
+#logowhatsapp img{
+    position: absolute;
+    width: 30px;
+}
+
+.textcontact{
+    position: absolute;
+    width: 200px;
+    top: 1385px;
+    left: 250px;
+    line-height: 2;
+
+}
+
+
+#textfb{
+    position: absolute;
+    top: 1495px;
+    left: 900px;
+    font-family: 'Raleway';
+}
+
+#logofb img{
+    position: absolute;
+    width: 40px;
+    top: 1500px;
+    left: 990px;
+}
+
+#logofb img:hover{
+    filter: drop-shadow(0px 0px 5px black);
+}
+
+
+
+
+
+
+
+
+/* ============================================== FOOTER ============================================================== */
+
+.footer{
+    position:absolute;
+    background-color: #131919;
+    box-sizing: border-box;
+    top: 1700px;
+    width: 1263px;
+    height: 400px;
+    left: 0%;
+    
+    
+  }
+b{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a li:hover{
+    color: blue;
+}
+
+  li{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    
+  }
+
+  li:active{
+    color: white;
+  }
+
+  li:visited{
+    color: white;
+  }
+
+
+#ul1{
+    position: absolute;
+    box-sizing: border-box;
+    top: 1730px;
+    left: 10px;
+    color: #fefefe;
+    list-style: none;
+    
+}
+
+#ul2{
+    position: absolute;
+    box-sizing: border-box;
+    top: 1730px;
+    left: 250px;
+    color: #fefefe;
+    list-style: none;
+   
+}
+
+#ul3{
+    position: absolute;
+    box-sizing: border-box;
+    top: 1730px;
+    left: 450px;
+    color: #fefefe;
+    list-style: none;
+   
+}
+
+#copy{
+    position: absolute;
+    top: 2000px;
+    color: white;
+    left: 500px;
+
+}
+
+#payment{
+    position: absolute;
+    top: 1735px;
+    right: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway';
+
+}

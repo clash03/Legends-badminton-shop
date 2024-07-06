@@ -1,0 +1,286 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    background-color: #fefefe;
+    padding: 20px;
+    margin: 0%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px ;
+    font-family: 'Raleway';
+    z-index: 100;
+
+}
+/* ====================================================================================== */
+
+/* ======================== NAVIGATOR ========================================================= */
+.navigator{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    height: 30px;
+    width: 1400px;
+    text-align: right;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.466);
+    padding-top: 10px;
+
+}
+
+.navigator a{
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.navigator a:active{
+
+}
+
+.navigator a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.navigator img{
+    position: fixed;
+    width: 200px;
+    top: -25px;
+    left: 10px;
+}
+/* ======================== END ========================================================= */
+
+
+/* ====================================================================================== */
+
+/* ======================== PAGE 1 ========================================================= */
+
+.page1{
+    position: absolute;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    left: 0%;
+    right: 0%;
+    top: 60px;
+
+}
+
+.page1 img{
+    width: 1263px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+h2{
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    top: 700px;
+    left: 450px;
+    text-transform: uppercase;
+    font-family: 'raleway';
+
+}
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* ======================== PAGE 2 ========================================================= */
+
+.page2{
+    position: absolute;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    left: 0%;
+    right: 0%;
+    top: 600px;
+}
+
+.page2 img{
+    width: 1263px;
+
+}
+
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* =========================== MAIN CATEGORIES ========================================================= */
+.categories img{
+    position: absolute;
+    z-index: 99;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+}
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* ======================== FOOTWEAR ========================================================= */
+#footwear{
+    top: 900px;
+    left: 130px;
+    width: 500px;
+
+}
+
+
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* ======================== BAGS ========================================================= */
+#bags{
+    width: 500px;
+    top: 1200px;
+    left: 130px;
+
+}
+
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* ======================== ACCESSORIES ========================================================= */
+#accessories{
+    width: 500px;
+    top: 1500px;
+    left: 130px;
+
+}
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* ======================== APPAREL ========================================================= */
+
+#apparel{
+    width: 500px;
+    top: 1500px;
+    left:650px;
+
+}
+
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+/* ======================== RACKET ========================================================= */
+#racket{
+    width: 500px;
+    height: 580px;
+    top: 900px;
+    left: 650px;
+
+}
+
+/* ======================== END ========================================================= */
+
+
+
+/* ============================================== FOOTER ============================================================== */
+
+.footer{
+    position:absolute;
+    background-color: #131919;
+    box-sizing: border-box;
+    top: 2000px;
+    width: 1263px;
+    height: 400px;
+    left: 0%;
+    
+    
+  }
+b{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a li:hover{
+    color: blue;
+}
+
+  li{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    
+  }
+
+  li:active{
+    color: white;
+  }
+
+  li:visited{
+    color: white;
+  }
+
+
+#ul1{
+    position: absolute;
+    box-sizing: border-box;
+    top: 2030px;
+    left: 10px;
+    color: #fefefe;
+    list-style: none;
+    
+}
+
+#ul2{
+    position: absolute;
+    box-sizing: border-box;
+    top: 2030px;
+    left: 250px;
+    color: #fefefe;
+    list-style: none;
+   
+}
+
+#ul3{
+    position: absolute;
+    box-sizing: border-box;
+    top: 2030px;
+    left: 450px;
+    color: #fefefe;
+    list-style: none;
+   
+}
+
+#copy{
+    position: absolute;
+    top: 2300px;
+    color: white;
+    left: 500px;
+
+}
+
+#payment{
+    position: absolute;
+    top: 2035px;
+    right: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway';
+
+}

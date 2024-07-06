@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px ;
+    font-family: 'Raleway';
+    z-index: 100;
+
+}
+/* ====================================================================================== */
+
+/* ======================== NAVIGATOR ========================================================= */
+.navigator{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    height: 30px;
+    width: 1400px;
+    text-align: right;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.674);
+    padding-top: 10px;
+
+}
+
+.navigator a{
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.navigator a:active{
+
+}
+
+.navigator a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.navigator img{
+    position: fixed;
+    width: 200px;
+    top: -25px;
+    left: 10px;
+}
+/* ======================== END ========================================================= */
+
+/* ====================================================================================== */
+
+.shoes{
+    position: absolute;
+    top: 5px;
+    left: 450px;
+
+}
+
+.shoes img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    left: 40px;
+    top: 300px;
+    position: relative;
+    text-transform: uppercase;
+    
+  }
+
+.column:hover{
+    color: red;
+}
+  
+.row img{
+    border-radius: 5px;
+    width: 70%;
+    transform-style: preserve-3d;
+
+}
+
+.row img:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    cursor: pointer;
+    transform: rotateY(180deg);
+    
+    
+}
+  /* Clearfix (clear floats) */
+  .row{
+    content: "";
+    clear: both;
+    display: table;
+    font-family: 'Raleway';
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================== FOOTER ============================================================== */
+
+.footer{
+    position:absolute;
+    background-color: #131919;
+    box-sizing: border-box;
+    top: 2000px;
+    width: 1263px;
+    height: 400px;
+    left: 0%;
+     
+  }
+
+b{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a li:hover{
+    color: blue;
+}
+
+  li{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    
+  }
+
+  li:active{
+    color: white;
+  }
+
+  li:visited{
+    color: white;
+  }
+
+
+#ul1{
+    position: absolute;
+    box-sizing: border-box;
+    top: 2030px;
+    left: 10px;
+    color: #fefefe;
+    list-style: none;
+    
+}
+
+#ul2{
+    position: absolute;
+    box-sizing: border-box;
+    top: 2030px;
+    left: 250px;
+    color: #fefefe;
+    list-style: none;
+
+   
+}
+
+#ul3{
+    position: absolute;
+    box-sizing: border-box;
+    top: 2030px;
+    left: 450px;
+    color: #fefefe;
+    list-style: none;
+   
+}
+
+#copy{
+    position: absolute;
+    top: 2300px;
+    color: white;
+    left: 500px;
+
+}
+
+#payment{
+    position: absolute;
+    top: 2035px;
+    right: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway';
+
+}
